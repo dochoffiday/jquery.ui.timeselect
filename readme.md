@@ -1,4 +1,4 @@
-﻿# jquery.ui.timeselect.js
+﻿# jquery.ui.timeselect
 
 A jQuery UI library for selecting time.
 
