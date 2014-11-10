@@ -1,0 +1,57 @@
+<h1>jquery.ui.timeselect.js</h1>
+
+<p>A jQuery UI library for selecting time.</p>
+
+<h2>Requirements</h2>
+
+<ol>
+<li><a href="http://jquery.com/">jQuery (1.6+)</a></li>
+<li><a href="http://jqueryui.com/">jQuery UI (1.10+)</a></li>
+<li><a href="http://www.datejs.com/">Datejs</a></li>
+</ol>
+
+<h2>Options</h2>
+
+<ol>
+<li><strong>step</strong> <em>(default: 30)</em> : The minute increment of the select options.</li>
+<li><strong>format</strong> <em>(default: 'h:mm tt')</em> : The string format of the display time (For more examples, look at the ".toString()" method of the <a href="https://github.com/datejs/Datejs/blob/master/src/core.js">core.js</a> file in Datejs).</li>
+<li><strong>maxResults</strong> <em>(default: null)</em> : The maximum number of results displayed, or no limit if null.</li>
+<li><strong>autocompleteSettings</strong> <em>(default: {})</em> : Settings to override the <a href="http://api.jqueryui.com/autocomplete/">jQuery UI Autocomplete</a> settings.</li>
+</ol>
+
+<h2>Examples</h2>
+
+<h4>Basic Example</h4>
+
+<p><code>javascript
+$('#example-1').timeselect({
+    'step': 15,
+    autocompleteSettings: {
+        autoFocus: true
+    }
+});
+</code></p>
+
+<h4>Maximum Results</h4>
+
+<p><code>javascript
+$('#example-1').timeselect({
+    'step': 15,
+    autocompleteSettings: {
+        autoFocus: true
+    }
+});
+</code></p>
+
+<h4>Military Time</h4>
+
+<p><code>javascript
+$('#example-1').timeselect({
+    'step': 15,
+    autocompleteSettings: {
+        autoFocus: true
+    }
+});
+</code></p>
+
+<p>To see a working example, go to <a href="http://dochoffiday.com/_demo/jquery.ui.timeselect">http://dochoffiday.com/_demo/jquery.ui.timeselect</a></p>
