@@ -45,4 +45,4 @@ $('#example-1').timeselect({
 });
 ```
 
-To see a working example, go to [http://dochoffiday.com/_demo/jquery.ui.timeselect](http://dochoffiday.com/_demo/jquery.ui.timeselect)
+To see a working example, go to [https://dochoffiday.github.io/jquery.ui.timeselect/](https://dochoffiday.github.io/jquery.ui.timeselect/)
